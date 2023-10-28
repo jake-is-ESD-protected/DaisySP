@@ -5,6 +5,7 @@
       "srcDir": "./Source",
       "extraScript": "./platformio.py",
       "srcFilter": [
+        "+<Utility>",
         "+<Control>",
         "+<Drums>",
         "+<Dynamics>",
@@ -12,8 +13,7 @@
         "+<Filters>",
         "+<Noise>",
         "+<PhysicalModeling>",
-        "+<Synthesis>",
-        "+<Utility>"
+        "+<Synthesis>"
       ],
   
       "flags": [
