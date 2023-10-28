@@ -19,7 +19,7 @@
       "flags": [
         "-O3",
         "-static",
-        "-I../Source",
+        "-ISource",
         "-IControl",
         "-IDrums",
         "-IDynamics",
