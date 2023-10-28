@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "build": {
       "srcDir": "./Source",
-      "extraScript": "./platformio_extra_build_script.py",
+      "extraScript": "./platformio.py",
       "srcFilter": [
         "+<Control>",
         "+<Drums>",
