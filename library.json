@@ -19,6 +19,7 @@
       "flags": [
         "-O3",
         "-static",
+        "-IUtility",
         "-ISource",
         "-IControl",
         "-IDrums",
@@ -27,8 +28,7 @@
         "-IFilters",
         "-INoise",
         "-IPhysicalModeling",
-        "-ISynthesis",
-        "-IUtility"
+        "-ISynthesis"
       ],
       "unflags": ["-Os"]
     }
