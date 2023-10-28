@@ -1,0 +1,34 @@
+{
+    "name": "daisysp",
+    "version": "0.0.1",
+    "build": {
+      "srcDir": "./Source",
+      "extraScript": "./platformio_extra_build_script.py",
+      "srcFilter": [
+        "+<Control>",
+        "+<Drums>",
+        "+<Dynamics>",
+        "+<Effects>",
+        "+<Filters>",
+        "+<Noise>",
+        "+<PhysicalModeling>",
+        "+<Synthesis>",
+        "+<Utility>"
+      ],
+  
+      "flags": [
+        "-O3",
+        "-static",
+        "-IControl",
+        "-IDrums",
+        "-IDynamics",
+        "-IEffects",
+        "-IFilters",
+        "-INoise",
+        "-IPhysicalModeling",
+        "-ISynthesis",
+        "-IUtility"
+      ],
+      "unflags": ["-Os"]
+    }
+  }
